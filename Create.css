@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: lavender;
+}
+main{
+    position: relative;
+}
+.Container{
+    z-index: 7;
+    padding-top: 4%;
+    position: absolute;
+    
+    padding-left: 1%;
+    top: 10%;
+    width: 30%;
+    margin-left: 38%;
+}
+.Container>img{
+    position: absolute;
+    width: 100%;
+    margin-left: -3%;
+    height: 22rem;
+    margin-top: -13%;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: -1px 3px 10px -1px;;
+}
+
+.Container>label{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -6%;
+  
+
+}
+.Container>input{
+   margin-left: 10%;
+    margin-bottom:12%;
+    padding-top: 0%;
+    width: 49%;
+    height: 21px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.14);
+} 
+.Container>button{
+    position: absolute;
+   margin-top: -12%;
+   margin-left: 10%;
+}
+::placeholder{
+    background-color:rgba(128, 128, 128, 0.096);
+}
+.Container>input:hover::placeholder{
+    color: black;
+}
+
+.Container>input:hover{
+    color: black;
+}
